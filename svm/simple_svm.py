@@ -19,4 +19,3 @@ predictions = clf.predict(features_test)
 # measure accuracy
 accuracy = accuracy_score(predictions, labels_test)
 print "Accuracy is: " + str(accuracy)
-
